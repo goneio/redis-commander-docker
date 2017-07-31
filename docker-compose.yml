@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  redis-commander:
+    image: gone/rpi-docker-redis-commander
+    build: .
